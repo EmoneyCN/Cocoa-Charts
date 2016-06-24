@@ -221,6 +221,12 @@
 		3BB5E13A18C984F600288894 /* ta_WILLR.c in Sources */ = {isa = PBXBuildFile; fileRef = 3BB5E09418C984F600288894 /* ta_WILLR.c */; };
 		3BB5E13B18C984F600288894 /* ta_WMA.c in Sources */ = {isa = PBXBuildFile; fileRef = 3BB5E09518C984F600288894 /* ta_WMA.c */; };
 		3BE2858C1CC63A780079AA35 /* CCSGroupChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE2858A1CC63A780079AA35 /* CCSGroupChart.m */; };
+		94313F2F1D1D13B400A2F1F9 /* EmoneyChartDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94313F2D1D1D13B400A2F1F9 /* EmoneyChartDemoViewController.m */; };
+		94313F301D1D13B400A2F1F9 /* EmoneyChartDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94313F2E1D1D13B400A2F1F9 /* EmoneyChartDemoViewController.xib */; };
+		94313F341D1D2DD800A2F1F9 /* EmoneyFenChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 94313F331D1D2DD800A2F1F9 /* EmoneyFenChart.m */; };
+		94313F371D1D2E0800A2F1F9 /* EmoneyFenChartDataSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 94313F361D1D2E0800A2F1F9 /* EmoneyFenChartDataSet.m */; };
+		94313F3A1D1D2F6B00A2F1F9 /* EmoneyKLineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 94313F391D1D2F6B00A2F1F9 /* EmoneyKLineChart.m */; };
+		94313F3D1D1D2F8100A2F1F9 /* EmoneyKLineChartDataSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 94313F3C1D1D2F8100A2F1F9 /* EmoneyKLineChartDataSet.m */; };
 		B9D9486EC13AC2EB4A9B76F0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 69441982625698A57CC7DB46 /* libPods.a */; };
 		F860F8921CDC89C90092CAD9 /* CCSStringUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F860F8871CDC89C90092CAD9 /* CCSStringUtils.m */; };
 		F860F8931CDC89C90092CAD9 /* CCSTALibUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F860F8891CDC89C90092CAD9 /* CCSTALibUtils.m */; };
@@ -495,6 +501,17 @@
 		3BE2858B1CC63A780079AA35 /* CCSGroupChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCSGroupChart.h; sourceTree = "<group>"; };
 		5D2BD16ADA0618F467FDA75B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		69441982625698A57CC7DB46 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		94313F2C1D1D13B400A2F1F9 /* EmoneyChartDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmoneyChartDemoViewController.h; sourceTree = "<group>"; };
+		94313F2D1D1D13B400A2F1F9 /* EmoneyChartDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmoneyChartDemoViewController.m; sourceTree = "<group>"; };
+		94313F2E1D1D13B400A2F1F9 /* EmoneyChartDemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmoneyChartDemoViewController.xib; sourceTree = "<group>"; };
+		94313F321D1D2DD800A2F1F9 /* EmoneyFenChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmoneyFenChart.h; sourceTree = "<group>"; };
+		94313F331D1D2DD800A2F1F9 /* EmoneyFenChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmoneyFenChart.m; sourceTree = "<group>"; };
+		94313F351D1D2E0800A2F1F9 /* EmoneyFenChartDataSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmoneyFenChartDataSet.h; sourceTree = "<group>"; };
+		94313F361D1D2E0800A2F1F9 /* EmoneyFenChartDataSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmoneyFenChartDataSet.m; sourceTree = "<group>"; };
+		94313F381D1D2F6B00A2F1F9 /* EmoneyKLineChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmoneyKLineChart.h; sourceTree = "<group>"; };
+		94313F391D1D2F6B00A2F1F9 /* EmoneyKLineChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmoneyKLineChart.m; sourceTree = "<group>"; };
+		94313F3B1D1D2F8100A2F1F9 /* EmoneyKLineChartDataSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmoneyKLineChartDataSet.h; sourceTree = "<group>"; };
+		94313F3C1D1D2F8100A2F1F9 /* EmoneyKLineChartDataSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmoneyKLineChartDataSet.m; sourceTree = "<group>"; };
 		C7D9E0A0F1D6DCA8178C4E37 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		F860F8861CDC89C90092CAD9 /* CCSStringUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCSStringUtils.h; sourceTree = "<group>"; };
 		F860F8871CDC89C90092CAD9 /* CCSStringUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCSStringUtils.m; sourceTree = "<group>"; };
@@ -570,6 +587,7 @@
 		3B8C01DF1CC4CAB8007914C4 /* CocoaChartsSample */ = {
 			isa = PBXGroup;
 			children = (
+				94313F2B1D1D12F700A2F1F9 /* EmoneyCharts */,
 				3B4C69001CCF5C62004FEDB3 /* CCSGroupChartSample */,
 				3B8C01E01CC4CAB8007914C4 /* CCSAppDelegate.h */,
 				3B8C01E11CC4CAB8007914C4 /* CCSAppDelegate.m */,
@@ -889,6 +907,32 @@
 			path = ta_func;
 			sourceTree = "<group>";
 		};
+		94313F2B1D1D12F700A2F1F9 /* EmoneyCharts */ = {
+			isa = PBXGroup;
+			children = (
+				94313F311D1D144900A2F1F9 /* Data */,
+				94313F2C1D1D13B400A2F1F9 /* EmoneyChartDemoViewController.h */,
+				94313F2D1D1D13B400A2F1F9 /* EmoneyChartDemoViewController.m */,
+				94313F2E1D1D13B400A2F1F9 /* EmoneyChartDemoViewController.xib */,
+				94313F321D1D2DD800A2F1F9 /* EmoneyFenChart.h */,
+				94313F331D1D2DD800A2F1F9 /* EmoneyFenChart.m */,
+				94313F351D1D2E0800A2F1F9 /* EmoneyFenChartDataSet.h */,
+				94313F361D1D2E0800A2F1F9 /* EmoneyFenChartDataSet.m */,
+				94313F381D1D2F6B00A2F1F9 /* EmoneyKLineChart.h */,
+				94313F391D1D2F6B00A2F1F9 /* EmoneyKLineChart.m */,
+				94313F3B1D1D2F8100A2F1F9 /* EmoneyKLineChartDataSet.h */,
+				94313F3C1D1D2F8100A2F1F9 /* EmoneyKLineChartDataSet.m */,
+			);
+			path = EmoneyCharts;
+			sourceTree = SOURCE_ROOT;
+		};
+		94313F311D1D144900A2F1F9 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		F860F8851CDC89C90092CAD9 /* CocoaChartsUtils */ = {
 			isa = PBXGroup;
 			children = (
@@ -976,6 +1020,7 @@
 				3B961BD41CC783CD00C34980 /* Tick.txt in Resources */,
 				3B8C024D1CC4CAB8007914C4 /* CCSSamplGroupChartDetailTableViewCell.xib in Resources */,
 				3B961BD21CC783CD00C34980 /* N225.xml in Resources */,
+				94313F301D1D13B400A2F1F9 /* EmoneyChartDemoViewController.xib in Resources */,
 				3B8C02391CC4CAB8007914C4 /* CCSChartsSettingTableViewCell.xib in Resources */,
 				3BB5E09918C984F600288894 /* ta_retcode.csv in Resources */,
 				F860F89F1CDC9F580092CAD9 /* CCSSampleGroupChartHorizontalViewController.xib in Resources */,
@@ -1121,6 +1166,7 @@
 				3BB5E0BC18C984F600288894 /* ta_CDLDOJISTAR.c in Sources */,
 				3B8C02381CC4CAB8007914C4 /* CCSChartsSettingTableViewCell.m in Sources */,
 				3BB5E12718C984F600288894 /* ta_STDDEV.c in Sources */,
+				94313F371D1D2E0800A2F1F9 /* EmoneyFenChartDataSet.m in Sources */,
 				3BB5E0E118C984F600288894 /* ta_CDLSTICKSANDWICH.c in Sources */,
 				3BB5E13B18C984F600288894 /* ta_WMA.c in Sources */,
 				F860F8971CDC89C90092CAD9 /* UIView+AutoLayout.m in Sources */,
@@ -1166,9 +1212,11 @@
 				3B8C02471CC4CAB8007914C4 /* CCSPizzaChartViewController.m in Sources */,
 				3BB5E13218C984F600288894 /* ta_TRIMA.c in Sources */,
 				3BB5E0C618C984F600288894 /* ta_CDLHARAMICROSS.c in Sources */,
+				94313F2F1D1D13B400A2F1F9 /* EmoneyChartDemoViewController.m in Sources */,
 				3BB5E0C118C984F600288894 /* ta_CDLGAPSIDESIDEWHITE.c in Sources */,
 				3BB5E0B518C984F600288894 /* ta_CDLBELTHOLD.c in Sources */,
 				3BB5E0AB18C984F600288894 /* ta_CCI.c in Sources */,
+				94313F3D1D1D2F8100A2F1F9 /* EmoneyKLineChartDataSet.m in Sources */,
 				3BB5E0D718C984F600288894 /* ta_CDLMORNINGSTAR.c in Sources */,
 				3BB5E0D218C984F600288894 /* ta_CDLLONGLINE.c in Sources */,
 				3BB5E10818C984F600288894 /* ta_MAXINDEX.c in Sources */,
@@ -1176,6 +1224,7 @@
 				3BB5E12018C984F600288894 /* ta_RSI.c in Sources */,
 				3BB5E0EE18C984F600288894 /* ta_DEMA.c in Sources */,
 				3BB5E13418C984F600288894 /* ta_TSF.c in Sources */,
+				94313F3A1D1D2F6B00A2F1F9 /* EmoneyKLineChart.m in Sources */,
 				3BB5E12618C984F600288894 /* ta_SQRT.c in Sources */,
 				3BB5E12E18C984F600288894 /* ta_TAN.c in Sources */,
 				3BB5E0FC18C984F600288894 /* ta_LINEARREG_ANGLE.c in Sources */,
@@ -1232,6 +1281,7 @@
 				3BB5E11C18C984F600288894 /* ta_ROC.c in Sources */,
 				3B8C02331CC4CAB8007914C4 /* CCSAppDelegate.m in Sources */,
 				3BB5E0D518C984F600288894 /* ta_CDLMATHOLD.c in Sources */,
+				94313F341D1D2DD800A2F1F9 /* EmoneyFenChart.m in Sources */,
 				F860F8931CDC89C90092CAD9 /* CCSTALibUtils.m in Sources */,
 				3BB5E12F18C984F600288894 /* ta_TANH.c in Sources */,
 				3BB5E11618C984F600288894 /* ta_NVI.c in Sources */,

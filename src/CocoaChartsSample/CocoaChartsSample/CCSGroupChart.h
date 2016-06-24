@@ -78,26 +78,26 @@ typedef enum {
 
 - (void)updateMACDStickData:(NSInteger)macdS l:(NSInteger)macdL m:(NSInteger)macdM;
 - (void)updateCandleStickLinesData:(NSInteger)ma1 ma2:(NSInteger)ma2 ma3:(NSInteger)ma3;
-- (void)updateCandleStickBollingerBandData:(NSInteger) bollN;
+- (void)updateCandleStickBollingerBandData:(NSInteger)bollN;
 - (void)updateKDJData:(NSInteger)macdN;
-- (void)updateRSIData:(NSInteger) n1 n2:(NSInteger) n2;
-- (void)updateWRData:(NSInteger) wrN;
-- (void)updateCCIData:(NSInteger) cciN;
-- (void)updateBOLLData:(NSInteger) bollN;
+- (void)updateRSIData:(NSInteger)n1 n2:(NSInteger)n2;
+- (void)updateWRData:(NSInteger)wrN;
+- (void)updateCCIData:(NSInteger)cciN;
+- (void)updateBOLLData:(NSInteger)bollN;
 
 @end
 
 @interface CCSGroupChart : UIView<UIScrollViewDelegate>
 
 /*******************************************************************************
- * initialize
- *******************************************************************************/
+* initialize
+*******************************************************************************/
 
 - (void)initialize;
 
 /*******************************************************************************
- * Public Properties
- *******************************************************************************/
+* Public Properties
+*******************************************************************************/
 
 @property(strong, nonatomic) UILabel *lblTitle;
 @property(strong, nonatomic) UILabel *lblOpen;
@@ -143,8 +143,8 @@ typedef enum {
 @property (nonatomic, copy) void (^setting)();
 
 /*******************************************************************************
- * Public Methods
- *******************************************************************************/
+* Public Methods
+*******************************************************************************/
 
 - (void)CCSChartBeTouchedOn:(id)chart point:(CGPoint)point indexAt:(NSUInteger)index;
 - (void)CCSChartDisplayChangedFrom:(id)chart from:(NSUInteger)from number:(NSUInteger)number;
